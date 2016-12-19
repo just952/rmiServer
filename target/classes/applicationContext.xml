@@ -10,7 +10,7 @@
 		<property name="service" ref="calculationBean"></property>
 		<property name="serviceInterface" value="spring.remoting.rmi.Calculation"></property>
 		<property name="serviceName" value="CalculationService"></property>
-		<!-- <property name="replaceExistingBinding" value="true"></property> -->
+		<property name="replaceExistingBinding" value="true"></property>
 		<property name="registryPort" value="1099"></property>
 	</bean>
 </beans>  
